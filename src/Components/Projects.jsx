@@ -35,7 +35,7 @@ const projects = [
     title: "Plant Nursery Maangement",
     subtitle: "DotNet Project that follows the CRUD for plant nursery management.",
     links: [
-      { label: "GitHub", url: "https://github.com/yourusername/portfolio", type: "github" },
+      { label: "GitHub", url: "https://github.com/navandarnidhi/PlantNursery_Management.git", type: "github" },
     ]
   },
   {
