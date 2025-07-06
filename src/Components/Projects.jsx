@@ -6,7 +6,7 @@ const projects = [
     subtitle: "My first ever portfolio website that started my dev journey.",
     links: [
       { label: "GitHub", url: "https://github.com/yourusername/portfolio", type: "github" },
-      { label: "Live Demo", url: "https://yourportfolio.com", type: "demo" }
+      // { label: "Live Demo", url: "https://yourportfolio.com", type: "demo" }
     ]
   },
   // {
