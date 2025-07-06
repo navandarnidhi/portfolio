@@ -1,33 +1,4 @@
 // src/Data/index.js
-export const projectsData = [
-  {
-    title: "Merchstore",
-    description:
-      "Ecommerce site built with JavaScript & jQuery, hosted on Azure.",
-    repoLink: "https://github.com/mrcoder991/MerchStore-EcommerceWebsite",
-  },
-  {
-    title: "Covid Diagnosis",
-    description:
-      "A Flask-based app to suggest if you should consult a doctor.",
-    repoLink: "https://github.com/mrcoder991/Covid-Diagnosis-app",
-  },
-  {
-    title: "Designers Club",
-    description:
-      "Official site of Designer’s Club MESCOE; I worked on the frontend.",
-    repoLink:
-      "https://github.com/Designers-Club-MESCOE/Designers-Club-MESCOE.github.io",
-    demoLink: "https://designers-club-mescoe.vercel.app",
-  },
-  {
-    title: "Personal Portfolio",
-    description:
-      "My first ever portfolio website that started my dev journey.",
-    repoLink: "https://github.com/mrcoder991/MyPortfolio",
-    demoLink: "https://udaygirhepunje.live/MyPortfolio",
-  },
-];
 
 
 

@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mrcoder911.github.io",
+   
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -47,14 +47,14 @@
   "description": "My Persnoal Portfolio Website Made in react \r ## Running this projects on your environment \r Install the required node packages\r ```bash\r   npm install\r ```\r To view the application, run : \r ```bash\r   npm run start\r ```\r ## License\r Copyright (c) 2022 Uday Girhepunje\r [MIT](./LICENSE)",
   "main": "index.js",
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mrcoder991/mrcoder991.github.io.git"
+    "type": "git"
+   
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/mrcoder991/mrcoder991.github.io/issues"
+    
   }
 }
