@@ -1,20 +1,24 @@
 import React from "react";
-import Typical from 'react-typical'
+import { Typewriter } from 'react-simple-typewriter';
 
 const LandingPage = () => {
   return (
-    // <!-- ************* landing page *****************************-->
+    // ************* landing page *****************************
     <section className="image-holder snap-item">
       <h1 className="big-title" data-speed="0">
-        Hi👋<span className="span1">,</span> I am
-              a{" "}
-              <br/>
-              <Typical
-                className="typing-text"
-              steps={["Web Developer", 1000, "Frontend Developer", 1000, "Graphics Designer", 500]}
-              loop={Infinity}
-              wrapper="p"
-            />
+        Hi👋<span className="span1">,</span> I am a{" "}
+        <br />
+        <span className="typing-text">
+          <Typewriter
+            words={["Web Developer", "Frontend Developer", "Data Enthusiast"]}
+            loop={0}
+            cursor
+            cursorStyle="|"
+            typeSpeed={70}
+            deleteSpeed={50}
+            delaySpeed={1000}
+          />
+        </span>
         <span className="dot">.</span>
       </h1>
 

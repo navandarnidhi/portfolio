@@ -16,7 +16,7 @@ const Navbar = () => {
       <section className="navbar">
         <nav className="topnav" id="myTopnav">
           <a className="page-title" href="/">
-            Uday Girhepunje
+            Nidhi Navandar
           </a>
           <ul className={`links ${mobileNav ? "active" : ""}`} id="links">
             <li>

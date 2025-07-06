@@ -7,10 +7,10 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "gh-pages": "^4.0.0",
+    "gh-pages": "^6.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-typical": "^0.1.3",
+    "react-simple-typewriter": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -39,9 +39,22 @@
     ]
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "^3.1.0",
-    "vite": "^4.2.1",
-    "vite-plugin-svgr": "^2.4.0",
+    "@vitejs/plugin-react": "^4.5.1",
+    "vite": "^6.3.5",
+    "vite-plugin-svgr": "^4.3.0",
     "vite-tsconfig-paths": "^4.0.8"
+  },
+  "description": "My Persnoal Portfolio Website Made in react \r ## Running this projects on your environment \r Install the required node packages\r ```bash\r   npm install\r ```\r To view the application, run : \r ```bash\r   npm run start\r ```\r ## License\r Copyright (c) 2022 Uday Girhepunje\r [MIT](./LICENSE)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrcoder991/mrcoder991.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mrcoder991/mrcoder991.github.io/issues"
   }
 }

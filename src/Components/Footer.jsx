@@ -7,7 +7,7 @@ const Footer = () => {
       <footer>
         <p>
           Designed with ❤️ by{" "}
-          <a href="https://github.com/mrcoder991">Uday Girhepunje</a>
+          <a href="https://github.com/mrcoder991">Nidhi Navandar</a>
         </p>
         <p>all rights reserved</p>
       </footer>
