@@ -9,14 +9,13 @@ const projects = [
       // { label: "Live Demo", url: "https://yourportfolio.com", type: "demo" }
     ]
   },
-  // {
-  //   title: "Designers Club",
-  //   subtitle: "Official site of Designer's Club MESCOE; I worked on the frontend.",
-  //   links: [
-  //     { label: "GitHub", url: "https://github.com/yourusername/designersclub", type: "github" },
-  //     { label: "Live Demo", url: "https://designersclub.com", type: "demo" }
-  //   ]
-  // },
+  {
+    title: "Smart Investor",
+    subtitle: "A smart investment app that helps you manage your stock portfolio.",
+    links: [
+      { label: "GitHub", url: "https://github.com/navandarnidhi/Smart_Investor", type: "github" },
+    ]
+  },
   {
     title: "Expense - Tracker",
     subtitle: "MERN Stack app to track the expenses.",
