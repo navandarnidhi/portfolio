@@ -28,6 +28,12 @@ export const experienceData = [
         role: "Communication Lead",
         description: " I am working as a communication lead where I manage the communication channels and content for the my team.",
     },
+    {
+        duration: "July 2025 - Aug 2025",
+        title: "CDAC Mumbai",
+        role: "Project Lead",
+        description: " I am working as a project lead where I manage the project development and team coordination for the my team.",
+    },
 ]
 
 export const skillsData = [
@@ -47,14 +53,6 @@ export const skillsData = [
         title: "python",
         icon: "fab fa-python",
     },
-    // {
-    //     title: "HTML5",
-    //     icon: "fab fa-html5"
-    // },
-    // {
-    //     title: "CSS3",
-    //     icon: "fab fa-css3"
-    // },
     {
         title: "Git & GitHub",
         icon: "fab fa-git"
