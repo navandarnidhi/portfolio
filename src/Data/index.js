@@ -26,13 +26,13 @@ export const experienceData = [
         duration: "Feb 2025 - Aug 2025",
         title: "CDAC Mumbai",
         role: "Communication Lead",
-        description: " I am working as a communication lead where I manage the communication channels and content for the my team.",
+        description: "  Worked as a communication lead, managed the communication channels and content for the team.",
     },
     {
         duration: "July 2025 - Aug 2025",
         title: "CDAC Mumbai",
         role: "Project Lead",
-        description: " I am working as a project lead where I manage the project development and team coordination for the my team.",
+        description: " Served as a project lead, managed the project development and team coordination for the team.",
     },
 ]
 
