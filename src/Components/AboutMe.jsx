@@ -11,7 +11,7 @@ const AboutMe = () => {
             I am <span className="highlight-name">Nidhi Navandar</span>, Computer engineering graduate with Diploma in Advanced Computing. Passionate about web development, data analytics, and continuous learning.
           </p>
           <a
-            href="/Nidhi-Navandar.pdf"
+            href="/Nidhi-Navandar-Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="resume-btn"
@@ -20,11 +20,11 @@ const AboutMe = () => {
           </a>
         </div>
         <div className="about-photo">
-          <img
-            src="https://ik.imagekit.io/desxuuelt/WhatsApp%20Image%202025-05-17%20at%2011.19.20.jpeg?updatedAt=1747461881615"
-            alt="Nidhi Navandar"
-            className="about-img"
-          />
+            <img
+              src="/images/favicon_io/Nidhi_Navandar.png"
+              alt="Nidhi Navandar Local"
+              className="about-img"
+            />
         </div>
       </div>
 
