@@ -38,6 +38,10 @@ const AboutMe = () => {
           <h3>Diploma in Advanced Computing</h3>
           <p>CDAC - Mumbai <br />Feb 2025 - Aug 2025</p>
         </div>
+        <div className="education-box">
+          <h3>Software Engineer Trainee</h3>
+          <p>Safran India Pvt Ltd<br />Oct 2025 - Present</p>
+        </div>
       </div>
     </section>
   );
