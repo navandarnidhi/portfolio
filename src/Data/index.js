@@ -38,11 +38,11 @@ export const experienceData = [
 
 export const skillsData = [
     {
-        title: "React",
-        icon: "fab fa-react"
+        title: "Angular",
+        icon: "fab fa-angular"
     },
     {
-        title: "Node.Js",
+        title: "Node",
         icon: "fab fa-node-js"
     },
     {
@@ -66,10 +66,10 @@ export const skillsData = [
         title: "java",
         icon: "fab fa-java"
     },
-    {
-        title: "Spring Boot",
-        // icon: "fas fa-boot",
-        icon: "fas fa-code"
-    },
+    // {
+    //     title: "Spring Boot",
+    //     // icon: "fas fa-boot",
+    //     icon: "fas fa-code"
+    // },
     
 ]

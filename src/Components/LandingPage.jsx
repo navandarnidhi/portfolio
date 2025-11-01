@@ -1,24 +1,13 @@
 import React from "react";
-import { Typewriter } from 'react-simple-typewriter';
 
 const LandingPage = () => {
   return (
     // ************* landing page *****************************
     <section className="image-holder snap-item">
       <h1 className="big-title" data-speed="0">
-        Hi👋<span className="span1">,</span> I am a{" "}
+        Hi👋<span className="span1">,</span> I am Nidhi a{" "}
         <br />
-        <span className="typing-text">
-          <Typewriter
-            words={["Web Developer", "Frontend Developer", "Data Enthusiast"]}
-            loop={0}
-            cursor
-            cursorStyle="|"
-            typeSpeed={70}
-            deleteSpeed={50}
-            delaySpeed={1000}
-          />
-        </span>
+        <span className="typing-text">Frontend Developer</span>
         <span className="dot">.</span>
       </h1>
 

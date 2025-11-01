@@ -8,7 +8,7 @@ const AboutMe = () => {
         <div className="about-text">
           <h2>About me</h2>
           <p>
-            I am <span className="highlight-name">Nidhi Navandar</span>, Computer engineering graduate with Diploma in Advanced Computing. Passionate about web development, data analytics, and continuous learning.
+            I am <span className="highlight-name">Nidhi Navandar</span>, a Computer Engineering graduate with a Diploma in Advanced Computing. Currently, I work as a Frontend Developer specializing in Angular at Safran, where I contribute to building dynamic and user-centric web applications.
           </p>
           <a
             href="/Nidhi-Navandar-Resume.pdf"
