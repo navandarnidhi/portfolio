@@ -1,60 +1,28 @@
 {
-  "name": "portfolio",
-  "version": "0.1.0",
+  "name": "portfolio-website-bolby",
   "private": true,
-   
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "gh-pages": "^6.3.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-simple-typewriter": "^5.0.1",
-    "web-vitals": "^2.1.4"
-  },
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "start": "vite --open",
+    "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "lint": "eslint .",
+    "preview": "vite preview"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "swiper": "^11.2.6"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "^4.5.1",
-    "vite": "^6.3.5",
-    "vite-plugin-svgr": "^4.3.0",
-    "vite-tsconfig-paths": "^4.0.8"
-  },
-  "description": "My Persnoal Portfolio Website Made in react \r ## Running this projects on your environment \r Install the required node packages\r ```bash\r   npm install\r ```\r To view the application, run : \r ```bash\r   npm run start\r ```\r ## License\r Copyright (c) 2022 Uday Girhepunje\r [MIT](./LICENSE)",
-  "main": "index.js",
-  "repository": {
-    "type": "git"
-   
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    
+    "@eslint/js": "^9.25.0",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@vitejs/plugin-react": "^4.4.1",
+    "eslint": "^9.25.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^16.0.0",
+    "vite": "^6.3.5"
   }
 }
