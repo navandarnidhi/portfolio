@@ -1,26 +1,21 @@
-import React from 'react'
-import AboutMe from '../Components/AboutMe'
-import Contact from '../Components/Contact'
-import Experience from '../Components/Experience'
-import Footer from '../Components/Footer'
-import LandingPage from '../Components/LandingPage'
-import Navbar from '../Components/Navbar'
-import Projects from '../Components/Projects'
-import Skills from '../Components/Skills'
+import Sidebar from "../Components/sidebar/Sidebar";
+import HomeSection from "../Components/home/Home";
+import About from "../Components/about/About";
+import Resume from "../Components/resume/Resume";
+import Portfolio from "../Components/portfolio/Portfolio";
+import Contact from "../Components/contact/Contact";
 
-const Home = () => {
-  return (
-    <div className='body-div'>
-      <Navbar />
-      <LandingPage />
-      <AboutMe />
-      <Projects />
-      <Experience />
-      <Skills />
+const Home = () => (
+  <>
+    <Sidebar />
+    <main className="main">
+      <HomeSection />
+      <About />
+      <Resume />
+      <Portfolio />
       <Contact />
-      <Footer />
-    </div>
-  )
-}
+    </main>
+  </>
+);
 
-export default Home
+export default Home;

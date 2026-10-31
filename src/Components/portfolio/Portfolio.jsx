@@ -1,6 +1,6 @@
 import React from 'react';
 import './portfolio.css';
-import Menu from '../../components/portfolio/Menu';
+import Menu from './Menu';
 
 const Portfolio = () => {
   return (
